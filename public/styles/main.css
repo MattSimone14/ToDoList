@@ -1,0 +1,24 @@
+footer {
+  position: relative;
+  text-align: center;
+  background-color: aqua;
+
+}
+
+body {
+  background-color: aqua;
+}
+
+
+main {
+  margin: 10px 10px;
+  background-color: azure;
+
+}
+
+form {
+  padding-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+
+}

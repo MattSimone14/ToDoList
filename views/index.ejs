@@ -1,0 +1,17 @@
+<%- include("partials/header.ejs") %>
+
+<ul>
+    <% for (let item of todoList) { %>
+      <li><%= item.text %></li>
+    <% } %>
+</ul>
+  
+
+
+
+<form action="/submit" method="POST">
+    <input type="text" name="newItem" placeholder="New Task">
+    <button type="submit">Add Task</button>
+</form>
+
+<%- include("partials/footer.ejs") %>
